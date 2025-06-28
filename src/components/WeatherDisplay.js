@@ -11,8 +11,9 @@ function WeatherDisplay({ weather }) {
   return (
     <div>
       <p>
-        Temperature: <span style={tempStyle}>{temperature}°C</span>
-      </p>
+  Temperature: <span style={tempStyle}>{temperature}</span>
+</p>
+
       <p>Conditions: {conditions}</p>
     </div>
   );
